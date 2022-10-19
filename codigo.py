@@ -42,7 +42,7 @@ while True:
 
     #por seugranca e privacidade retirei o email e a senha que usei do codigo. 
     msg['From'] = '' #digitar o email entre aspas
-    password = '' #dissitar senha do email entre aspas
+    password = '' #digitar senha do email entre aspas
     msg['To'] = emailpaciente
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(body)
